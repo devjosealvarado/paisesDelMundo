@@ -317,6 +317,7 @@ input_text.addEventListener('input', e => {
             <img src="${paisesFiltrados[0].flags.svg}" alt="">
              <li>Capital: ${paisesFiltrados[0].capital[0]}</li>
              <li>Región: ${paisesFiltrados[0].region}</li>
+             <li>Habitantes: ${paisesFiltrados[0].population}</li>
              <li>Clima actual: ${weatherCurrent}</li>
              <li>Temperatura actual: ${tempActual.toFixed(2)} °C</li>
              <div class="containerImg">${iconWeather}</div>
