@@ -257,7 +257,7 @@ input_text.addEventListener('input', e => {
 
             const weatherInfo = async() => {
                 try {
-                    const responseWeater = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&lang=es&appid=5c0badfb19524ce4005ab51cac00eef7`);
+                    const responseWeater = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&lang=es&appid=a305efb8c52bdd249b267b26eef91154`);
                     const dataWeather = await responseWeater.json();
                     
                     tempActual = dataWeather.main.temp - 273.15;
@@ -299,7 +299,7 @@ input_text.addEventListener('input', e => {
 
             const weatherInfo = async() => {
                 try {
-                    const responseWeater = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&lang=es&appid=5c0badfb19524ce4005ab51cac00eef7`);
+                    const responseWeater = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&lang=es&appid=a305efb8c52bdd249b267b26eef91154`);
                     const dataWeather = await responseWeater.json();
                     
                     tempActual = dataWeather.main.temp - 273.15;
